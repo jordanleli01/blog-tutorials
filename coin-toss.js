@@ -1,3 +1,11 @@
+/*********************************************************************
+/  How to use this program:
+/   - Be sure that you have Node.js installed on your computer
+/   - Save this code to your computer as coin-toss.js
+/   - In your terminal, navigate to the directory containing this file
+/   - Type: node coin-toss.js (press Enter)
+/*********************************************************************/
+
 'use strict';
 
 const readline = require('readline');
@@ -23,3 +31,4 @@ rl.question('Type h for heads or t for tails, then press ENTER\n', (answer) => {
   // close the readline stream and exit the program
   rl.close();
 });
+
